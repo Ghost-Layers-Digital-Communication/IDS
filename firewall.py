@@ -133,7 +133,7 @@ monitor_threads = []
 
 # ==================== GUI WINDOW ====================
 root = tk.Tk()
-root.title("Ghost-Layer IDS Firewall")
+root.title("===[Ghost-Layer IDS Firewall]=== coded by: sacred G")
 root.configure(bg=BG_COLOR)
 root.geometry("900x600")
 root.minsize(800, 500)
@@ -217,3 +217,4 @@ def stop_monitoring():
 
 # ==================== START GUI ====================
 root.mainloop()
+
